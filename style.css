@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet');
+
+body, html {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 1920px;
+}
+
+.first {
+    height: 700px;
+}
+
+.line1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.navigation {
+    display: flex;
+    position: relative; top: 50px; left: 0px; 
+}
+
+.navigation li {
+    list-style-type: none;
+    margin-right: 42px;
+
+}
+
+.logo {
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    color: #34547A;
+    width: 115px;
+    height: 57px;
+    position: relative; top: 46px; left: -300px; 
+}
+
+.header_img {
+    width: 357px;
+    height: 234px;
+    position: relative; top: 167px; left: -116px; 
+}
+
+.design {
+    position: relative; top: 100px; left: 0px;
+
+}
+
+.design h1, p, button {
+    margin-bottom: 60px;
+}
+
+.write_to_me {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 359px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.numbers .numbers {
+    margin: 26px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    height: 653px;
+    position: relative;
+    top: 150px;
+}
+
+.my_skills h2 { position: relative; left: -480px; }
+
+.top-img { position: relative; left: 550px; }
+.bottom-img { position: relative; left: -450px; z-index: 1; }
+
+
+.how_i_work {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.how_i_work p {
+    position: relative; top: 30px; left: 0px;
+    margin-bottom: 0px;
+}
+
+.video { position: relative; left: 0px; top: 350px; z-index: 1; }
+
+.projects {
+    width: 100%;
+    height: 960px;
+    background-image: url(img/Rectangle7.jpg), url(img/Rectangle7.7.jpg);
+    background-size: 480px 480px;
+    background-position: left, right;
+    background-repeat: repeat-x repeat-x;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.clients img {
+    height: 120px;
+    width: 255px;
+    padding: 0px 30px 0px 30px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 762px;
+    padding: -100px;
+}
+
+.feedback h2 {
+    position: relative; top: 0px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forn-name-e-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send {
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+}
+
+#name, #e-mail {
+    width: 255px;
+    height: 50px;
+    margin: 0px 0px 20px 0px;
+}
+
+#name {
+    margin-right: 10px;
+}
+
+#e-mail {
+    margin-left: 10px;
+}
+
+#message {
+    width: 540px;
+    height: 175px;
+}
+
+
+.third {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vk-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first, .how_i_work, .feedback {
+    background-color: #EEEFF1;
+}
+
+.about_me, .skills, .projects, .clients {
+    background-color: #F9F9F9;
+}
+
+.numbers, footer {
+    background-color: #34547A;
+}
+
+
+h1, h2, p, .button, .navigation {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #727272;
+}
+
+.write_to_me, .send {
+    color: honeydew;
+}
+
+.navigation {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.feedback, .how_i_work, .about_me p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.navigation li a:nth-child(1) {
+    color: #34547A;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.numbers div p {
+    color: honeydew;
+}
